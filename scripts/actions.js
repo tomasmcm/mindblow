@@ -189,3 +189,14 @@ function swapStyleSheet(sheet){
 function showMessage(idd){ 
     $(idd).animate({'opacity': '1'}, 200);
 }
+
+
+$("#note").click(function(){
+    if(first==true){
+        document.getElementById("myVideo").play();
+        $("#video").animate({"opacity": "1" }, 500);
+        $("#front").animate({"opacity": "1" }, 1000);
+        $("#note").css({"display": "none"});
+        first=false;
+    }
+});
