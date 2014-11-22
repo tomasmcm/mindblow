@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'files/Langdon';
+    src: url('Langdon.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+  background: white;
+  cursor: crosshair;
+  /*cursor:progress*/
+}
+
+body{
+  margin-top:0; 
+  margin-left:0;
+  width: 1280px;
+  height: 1024px;
+  background: white;
+  /*border: 1px solid;*/
+}
+
+img{
+  width: 1280px;
+  height: 1024px;
+  image-rendering: optimizeQuality;              /* Legal fallback */
+  image-rendering: optimize-contrast;            /* CSS3 Proposed */
+  -ms-interpolation-mode: nearest-neighbor;      /* IE8+ */
+}
+
+#note{
+  z-index: 9999;
+  opacity: 1;
+}
+
+#imgG,
+#imgM{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+  width: 1280px;
+  height: 1024px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+#earth{
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  margin-left: -300px;
+  width: 600px !important;
+  height: 356px !important;
+}
+
+#map{
+  opacity: 0;
+}
+
+#slidr-api-demo{
+  position:absolute;
+  top:0; 
+  left:0;
+  width: 1280px;
+  height: 1024px;
+  overflow: hidden;
+}
+.slide{
+  position:absolute;
+  top:0; 
+  left:0;
+  width: 1280px;
+  height: 1024px;
+  display: block;
+  background: white;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.slidr-control{
+  opacity: 0;
+}
+
+.slidr-control:hover{
+  opacity: 0.1;
+}
+
+.slidr-control.up,
+.slidr-control.down{
+  height: 50px !important;
+}
+.slidr-control.left,
+.slidr-control.right{
+  width: 50px !important;
+}
+
+.slidr-breadcrumbs{
+  opacity: 0;
+}
+
+.slidr-breadcrumbs li{
+  border: 1px solid rgba(0,0,0,0);
+  width: 6px !important;
+  height: 6px !important;
+  margin: 2px !important;
+  border-radius: 2.8px !important;
+}
+
+.slidr-breadcrumbs li.normal{
+  border-color: gray !important;
+}
+
+.slidr-breadcrumbs .active{
+  -webkit-animation: blink 4s infinite;
+  -moz-animation: blink 5s infinite;
+  -ms-animation: blink 5s infinite;
+  -o-animation: blink 5s infinite;
+  animation: blink 5s infinite;
+}
+
+@-keyframes blink{
+  0% { background-color: rgba(128, 128, 128,0); }
+  20% { background-color: rgba(128, 128, 128,1); }
+  80% { background-color: rgba(128, 128, 128,1); }
+  100% { background-color: rgba(128, 128, 128,0); }
+}
+@-webkit-keyframes blink{
+  0% { background-color: rgba(128, 128, 128,0); }
+  20% { background-color: rgba(128, 128, 128,1); }
+  80% { background-color: rgba(128, 128, 128,1); }
+  100% { background-color: rgba(128, 128, 128,0); }
+}
+@-moz-keyframes blink{
+  0% { background-color: rgba(128, 128, 128,0); }
+  20% { background-color: rgba(128, 128, 128,1); }
+  80% { background-color: rgba(128, 128, 128,1); }
+  100% { background-color: rgba(128, 128, 128,0); }
+}
+@-ms-keyframes blink{
+  0% { background-color: rgba(128, 128, 128,0); }
+  20% { background-color: rgba(128, 128, 128,1); }
+  80% { background-color: rgba(128, 128, 128,1); }
+  100% { background-color: rgba(128, 128, 128,0); }
+}
+@-o-keyframes blink{
+  0% { background-color: rgba(128, 128, 128,0); }
+  20% { background-color: rgba(128, 128, 128,1); }
+  80% { background-color: rgba(128, 128, 128,1); }
+  100% { background-color: rgba(128, 128, 128,0); }
+}
+
+#video{
+  opacity: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+#front{
+  font-family: Langdon;
+  color: whitesmoke;
+  width: 1280px;
+  height: 1024px;
+  top:0;
+  left: 0;
+  z-index: -1;
+  opacity: 0;
+}
+#op{
+  position: absolute;
+  margin-left: 359.603px !important;
+  margin-top: 378px !important;
+  font-size: 54pt;
+}
+#mind{
+  position: absolute;
+  margin-left: 357.603px !important;
+  margin-top: 453px !important;
+  font-size: 114pt;
+}
+
+
+.titleBottom {
+  position: absolute;
+  width: 1280px;
+  height: 1024px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.textTop {
+  position: absolute;
+  background-color:white;
+  width: 1280px;
+  height: 1024px;
+  margin-left:0px;
+  margin-right:auto;
+  margin-top: 1025px;
+  z-index:9 !important;
+}
+
+.gif{
+  width: 900px;
+  height: auto;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  margin-left: -450px;
+}
+
+
+#h{
+  font-family: Langdon;
+  line-height: 1.05em;
+  font-size: 12em;
+  position: fixed;
+  top: -30px;
+  left: 100px;
+  z-index: 3 !important;
+  color: white;
+  text-transform: uppercase;
+}

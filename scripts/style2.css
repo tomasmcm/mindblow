@@ -1,0 +1,27 @@
+#slidr-api-demo-breadcrumbs{
+  margin-right: 450.0px;
+  margin-bottom: 36px; 
+}
+
+.slidr-breadcrumbs li{
+  border: 2px solid rgba(0,0,0,0) !important;
+  width: 35px !important;
+  height: 35px !important;
+  margin-top: 7px !important;
+  margin-bottom: 7px !important;
+  margin-left: 11px !important;
+  margin-right: 11px !important;
+  border-radius: 10px !important;
+  padding: 0px !important;
+}
+
+.slidr-breadcrumbs li.normal{
+  border: 2px solid LightGray !important;
+  width: 35px !important;
+  height: 35px !important;
+  margin-top: 7px !important;
+  margin-bottom: 7px !important;
+  margin-left: 11px !important;
+  margin-right: 11px !important;
+  padding: 0px !important;
+}

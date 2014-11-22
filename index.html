@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MindBlow</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="scripts/ResetCSS.css">
+	<script type="text/javascript" src="scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/slidr.js"></script>
+  <link id="s1" rel="stylesheet" type="text/css" href="scripts/style.css">
+  <link id="s2" rel="stylesheet" type="text/css" href="scripts/style2.css">
+
+  <script src="scripts/pace/pace.min.js"></script>
+  <link href="scripts/pace/pace-theme.css" rel="stylesheet" />
+</head>
+<body>
+
+<div id="slidr-api-demo">
+  <div class="slide a" data-slidr="a" style="background: black;">
+  <!-- #### HOME #### -->
+    <img id="note" src="files/note.png">
+    <div id="video">
+    <video id="myVideo" width="100%" height="auto" ended="fadeVideo()">
+      <source src="files/frame 2-2.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+    </video>
+    </div>
+    <div id="front">
+    <p id="op">OPERATING MANUAL TO</p>
+    <p id="mind">MIND<span style="text-decoration: underline; opacity:0.75">BLOW</span></p>
+    <img id="map" src="files/map.png">
+    <img id="earth" src="files/earth.gif">
+    </div>
+  </div>
+  <div class="slide text b" data-slidr="b">
+  <!-- #### FICHA TÉCNICA #### -->
+    <img src="files/export/mindblow2.png">
+  </div>
+  <div class="slide c" data-slidr="c">
+  <!-- #### FORM FUNCTION & DESIGN #### -->
+    <img src="files/export/mindblow3.png">
+  </div>
+  <div class="slide d" data-slidr="d">
+  <!-- #### DESIGN METHODS #### -->
+    <img src="files/export/mindblow4.png">
+  </div>
+  <div class="slide e" data-slidr="e">
+  <!-- #### A PATTERN LANGUAGE #### -->
+    <img src="files/export/mindblow5.png">
+  </div>
+  <div class="slide f" data-slidr="f">
+  <!-- #### A PATTERN LANGUAGE 2 #### -->
+    <img src="files/export/mindblow6.png">
+  </div>
+  <div class="slide g" data-slidr="g">
+  <!-- #### BREAKING THE WHOLESALE BARRIER #### -->
+    <div class="textTop">
+      <img src="files/export/mindblow8.png">
+      <img id="imgG" onclick="showMessage('#imgG')" src="files/export/mindblow9.png">
+    </div>
+    <div class="titleBottom">
+      <img src="files/export/mindblow7.png">
+      <img class="gif" src="files/gif/sale.gif">
+    </div>
+  </div>
+  <div class="slide h" data-slidr="h">
+  <!-- #### BREAKING THE WHOLESALE BARRIER 2 #### -->
+    <img src="files/export/mindblow10.png">
+  </div>
+  <div class="slide i" data-slidr="i">
+  <!-- #### TOOL RENTALS #### -->
+    <div class="textTop">
+      <img src="files/export/mindblow12.png">  
+    </div>
+    <div class="titleBottom">
+      <img src="files/export/mindblow11.png">
+      <img class="gif" src="files/gif/tools.png">
+    </div>
+  </div>
+  <div class="slide j" data-slidr="j">
+  <!-- #### TOOL RENTALS 2 #### -->
+    <img src="files/export/mindblow13.png">
+  </div>
+  <div class="slide k" data-slidr="k">
+  <!-- #### MACHINERY #### -->
+    <img src="files/export/mindblow14.png">
+  </div>
+  <div class="slide l" data-slidr="l">
+  <!-- #### MATERIALS HANDBOOK #### -->
+    <img src="files/export/mindblow15.png">
+  </div>
+  <div class="slide m" data-slidr="m">
+  <!-- #### INCONGRUOUS TECHNOLOGY #### -->
+    <div class="textTop">
+      <img src="files/export/mindblow17.png">
+      <img id="imgM" onclick="showMessage('#imgM')" src="files/export/mindblow18.png">
+    </div>
+    <div class="titleBottom">
+      <img src="files/export/mindblow16.png">
+      <img class="gif" src="files/gif/tech.gif">
+    </div>
+  </div>
+  <div class="slide n" data-slidr="n">
+  <!-- #### INCONGRUOUS TECHNOLOGY 2 #### -->
+    <img src="files/export/mindblow19.png">
+  </div>
+  <div class="slide o" data-slidr="o">
+  <!-- #### ENERGY EARTH & EVERYONE #### -->
+    <img src="files/export/mindblow20.png">
+  </div>
+  <div class="slide p" data-slidr="p">
+  <!-- #### ENERGY & FORM #### -->
+    <img src="files/export/mindblow21.png">
+  </div>
+  <div class="slide q" data-slidr="q">
+  <!-- #### PUB #### -->
+    <img id="pubGif" src="files/pub.gif">
+  </div>
+  <div class="slide r" data-slidr="r">
+  <!-- #### BURNING WOOD #### -->
+    <div class="textTop">
+      <img src="files/export/mindblow24.png">
+    </div>
+    <div class="titleBottom">
+      <img src="files/export/mindblow23.png">
+      <img class="gif" src="files/gif/wood.gif">
+    </div>
+  </div>
+  <div class="slide s" data-slidr="s">
+  <!-- #### BURNING WOOD 2 #### -->
+    <img src="files/export/mindblow25.png">
+  </div>
+  <div class="slide t" data-slidr="t">
+  <!-- #### NEW SOURCES OF ENERGY #### -->
+    <img src="files/export/mindblow26.png">
+  </div>
+  <div class="slide u" data-slidr="u">
+  <!-- #### SOLAR HOMES #### -->
+    <div class="textTop">
+      <img src="files/export/mindblow28.png">
+    </div>
+    <div class="titleBottom">
+      <img src="files/export/mindblow27.png">
+      <img class="gif" src="files/gif/solar.gif">
+    </div>
+  </div>
+  <div class="slide v" data-slidr="v">
+  <!-- #### WINDPOWER #### -->
+    <div class="textTop">
+      <img src="files/export/mindblow30.png">
+    </div>
+    <div class="titleBottom">
+      <img src="files/export/mindblow29.png">
+      <img class="gif" src="files/gif/wind.gif">
+    </div>
+  </div>
+  <div class="slide w" data-slidr="w">
+  <!-- #### WINDPOWER 2 #### -->
+    <img src="files/export/mindblow31.png">
+  </div>
+  <div class="slide x" data-slidr="x">
+  <!-- #### HARNESSING THE WIND #### -->
+    <img src="files/export/mindblow32.png">
+  </div>
+</div>
+
+  <script type="text/javascript" src="scripts/actions.js"></script>
+  <script type="text/javascript">
+  $('img').on('dragstart', function(event) { event.preventDefault(); });
+  </script>
+</body>
+</html>

@@ -1,4 +1,0 @@
-mindblow
-========
-
-Online Magazine
