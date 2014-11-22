@@ -1,4 +1,3 @@
-mindblow
-========
+# MINDBLOW
 
 Online Magazine
