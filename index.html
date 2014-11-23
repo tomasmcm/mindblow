@@ -110,9 +110,17 @@
   <!-- #### ENERGY & FORM #### -->
     <img src="files/export/mindblow21.png">
   </div>
-  <div class="slide q" data-slidr="q">
+  <div class="slide q" data-slidr="q" style="z-index:4 !important;">
   <!-- #### PUB #### -->
-    <img id="pubGif" src="files/pub.gif">
+    <div style="display:none">
+      <video id="sourcevid" autoplay="false" loop="true" width="1280" height="1024">
+        <source src="files/pub.mp4" type="video/mp4"/>
+      </video>
+      <canvas id="sourcecopy" width="1280" height="1024"></canvas>
+    </div>
+    <div>
+      <canvas id="output" width="1280" height="1024" onmousedown="dropBomb(event, this)" style="cursor:pointer;background-color: #1A1A1A;"></canvas>
+    </div>
   </div>
   <div class="slide r" data-slidr="r">
   <!-- #### BURNING WOOD #### -->
@@ -163,6 +171,7 @@
 </div>
 
   <script type="text/javascript" src="scripts/actions.js"></script>
+  <script type="text/javascript" src="scripts/scriptBlow.js"></script>
   <script type="text/javascript">
   $('img').on('dragstart', function(event) { event.preventDefault(); });
   </script>
