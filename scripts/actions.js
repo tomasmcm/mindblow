@@ -1,3 +1,8 @@
+Pace.on("done", function(){
+    $("#note").animate({"opacity": "1" }, 500);
+});
+
+
 var s = slidr.create('slidr-api-demo', {
   breadcrumbs: true,
   keyboard: true,
