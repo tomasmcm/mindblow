@@ -66,7 +66,7 @@ function checkSlide(nSlide){
         $(".g .textTop").css({"margin-top": "1025px"});
         $(function(){
             function slide(){
-                $('.textTop').animate({'margin-top': '0px'}, 2000);
+                $('.g .textTop').animate({'margin-top': '0px'}, 2000);
             }
             setTimeout(slide, 5000);
         });
@@ -79,7 +79,7 @@ function checkSlide(nSlide){
         $(".i .textTop").css({"margin-top": "1025px"});
         $(function(){
             function slide(){
-                $('.textTop').animate({'margin-top': '0px'}, 2000);
+                $('.i .textTop').animate({'margin-top': '0px'}, 2000);
             }
             setTimeout(slide, 5000);
         });
@@ -98,7 +98,7 @@ function checkSlide(nSlide){
         $(".m .textTop").css({"margin-top": "1025px"});
         $(function(){
             function slide(){
-                $('.textTop').animate({'margin-top': '0px'}, 2000);
+                $('.m .textTop').animate({'margin-top': '0px'}, 2000);
             }
             setTimeout(slide, 5000);
         });
@@ -123,7 +123,7 @@ function checkSlide(nSlide){
         $(".r .textTop").css({"margin-top": "1025px"});
         $(function(){
             function slide(){
-                $('.textTop').animate({'margin-top': '0px'}, 2000);
+                $('.r .textTop').animate({'margin-top': '0px'}, 2000);
             }
             setTimeout(slide, 5000);
         });
@@ -139,7 +139,7 @@ function checkSlide(nSlide){
         $(".u .textTop").css({"margin-top": "1025px"});
         $(function(){
             function slide(){
-                $('.textTop').animate({'margin-top': '0px'}, 2000);
+                $('.u .textTop').animate({'margin-top': '0px'}, 2000);
             }
             setTimeout(slide, 5000);
         });
@@ -149,7 +149,7 @@ function checkSlide(nSlide){
         $(".v .textTop").css({"margin-top": "1025px"});
         $(function(){
             function slide(){
-                $('.textTop').animate({'margin-top': '0px'}, 2000);
+                $('.v .textTop').animate({'margin-top': '0px'}, 2000);
             }
             setTimeout(slide, 5000);
         });
