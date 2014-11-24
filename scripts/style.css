@@ -81,11 +81,7 @@ img{
 }
 
 .slidr-control{
-  opacity: 0;
-}
-
-.slidr-control:hover{
-  opacity: 0.1;
+  opacity: 0 !important;
 }
 
 .slidr-control.up,
