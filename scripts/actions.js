@@ -74,7 +74,7 @@ function checkSlide(nSlide){
             function slide(){
                 $('.g .textTop').animate({'margin-top': '0px'}, 2000);
             }
-            setTimeout(slide, 5000);
+            setTimeout(slide, 8000);
         });
         $(".g .titleBottom").click(function () { $('.g .textTop').animate({'margin-top': '0px'}, 500); });
     break;
@@ -88,7 +88,7 @@ function checkSlide(nSlide){
             function slide(){
                 $('.i .textTop').animate({'margin-top': '0px'}, 2000);
             }
-            setTimeout(slide, 5000);
+            setTimeout(slide, 8000);
         });
         $(".i .titleBottom").click(function () { $('.i .textTop').animate({'margin-top': '0px'}, 500); });
     break;
@@ -108,7 +108,7 @@ function checkSlide(nSlide){
             function slide(){
                 $('.m .textTop').animate({'margin-top': '0px'}, 2000);
             }
-            setTimeout(slide, 5000);
+            setTimeout(slide, 8000);
         });
         $(".m .titleBottom").click(function () { $('.m .textTop').animate({'margin-top': '0px'}, 500); });
     break;
@@ -134,7 +134,7 @@ function checkSlide(nSlide){
             function slide(){
                 $('.r .textTop').animate({'margin-top': '0px'}, 2000);
             }
-            setTimeout(slide, 5000);
+            setTimeout(slide, 8000);
         });
         $(".r .titleBottom").click(function () { $('.r .textTop').animate({'margin-top': '0px'}, 500); });
     break;
@@ -151,7 +151,7 @@ function checkSlide(nSlide){
             function slide(){
                 $('.u .textTop').animate({'margin-top': '0px'}, 2000);
             }
-            setTimeout(slide, 5000);
+            setTimeout(slide, 8000);
         });
         $(".u .titleBottom").click(function () { $('.u .textTop').animate({'margin-top': '0px'}, 500); });
     break;
@@ -162,7 +162,7 @@ function checkSlide(nSlide){
             function slide(){
                 $('.v .textTop').animate({'margin-top': '0px'}, 2000);
             }
-            setTimeout(slide, 5000);
+            setTimeout(slide, 8000);
         });
         $(".v .titleBottom").click(function () { $('.v .textTop').animate({'margin-top': '0px'}, 500); });
     break;
